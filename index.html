@@ -3,71 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>No_micGUy's Kribb</title>
+    <title>Yeeaya!</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f0f0f0;
         }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
+        header, nav, section, article, footer {
+            margin: 20px;
         }
-        h1 {
+        nav ul {
+            list-style-type: none;
             margin: 0;
+            padding: 0;
         }
-        nav {
-            background-color: #444;
-            padding: 10px 0;
-            text-align: center;
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
         }
-        nav a {
-            color: #fff;
+        nav ul li a {
             text-decoration: none;
-            margin: 0 10px;
-        }
-        nav a:hover {
-            text-decoration: underline;
-        }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-            border-radius: 5px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            color: #333;
         }
         footer {
-            background-color: #333;
-            color: #fff;
             text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+            color: #666;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to No_micGUy's Kribb (Homepage)</h1>
+        <h1>Welcome to PopcornMan55D(No_micGUy)'s Web</h1>
+        <nav>
+            <ul>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contributions">Contributions</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Portfolio</a>
-        <a href="#">Contact</a>
-    </nav>
-    <div class="container">
-        <h2>About Me</h2>
-        <p>Welcome to my homepage! I'm No_micGUy, and this is my personal website. Here you can find information about my projects, my contributions and random stuff</p>
-    </div>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <article>
+            <h3>Project Title 1</h3>
+            <p>Description of project 1...</p>
+            <a href="#">Link to project 1</a>
+        </article>
+        <article>
+            <h3>Project Title 2</h3>
+            <p>Description of project 2...</p>
+            <a href="#">Link to project 2</a>
+        </article>
+    </section>
+
+    <section id="contributions">
+        <h2>Contributions</h2>
+        <article>
+            <h3>Contribution Title 1</h3>
+            <p>Description of contribution 1...</p>
+            <a href="#">Link to contribution 1</a>
+        </article>
+        <article>
+            <h3>Contribution Title 2</h3>
+            <p>Description of contribution 2...</p>
+            <a href="#">Link to contribution 2</a>
+        </article>
+    </section>
+
     <footer>
-        &copy; 2024 No_micGUy
+        <p>&copy; 2024 PopcornMan55D. All rights reserved.</p>
     </footer>
 </body>
 </html>
